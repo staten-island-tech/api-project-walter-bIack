@@ -1,0 +1,94 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --dark-red: #dc2626;
+  --light-blue: #349dcb;
+  --dark-blue: #4447bb;
+  --yellow: #fad805;
+  --brown: #964b00;
+  --gray: #c8c8c8;
+  --black: #000;
+  --white: #ffffff;
+  --primary: var(--light-blue);
+  --secondary: var(--dark-blue);
+  --font-size: var(--h1);
+  --h1: 10rem;
+  --h2: 5rem;
+  --h3: 3rem;
+  --h4: 2.5rem;
+  --h5: 1.5rem;
+}
+.title {
+  background-color: var(--primary);
+  font-size: var(--h1);
+  text-align: center;
+}
+.main {
+  background-color: var(--secondary);
+  height: 150;
+}
+
+h1 {
+  font-size: var(--h1);
+  background-color: var(--primary);
+}
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+  font-size: var(--h3);
+}
+h4 {
+  font-size: var(--h4);
+}
+h5 {
+  font-size: var(--h5);
+}
+.card {
+  width: 500px;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  background-color: var(--gray);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  padding: 1.5rem 4rem;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10rem;
+  transition: 0.2s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+.image {
+  height: 30vh;
+  border-radius: 1rem;
+}
+.cool {
+  --primary: var(--light-blue);
+}
+.warm {
+  --primary: var(--dark-blue);
+}
+
+.quote {
+  font-size: 2rem;
+  font-style: italic;
+}
