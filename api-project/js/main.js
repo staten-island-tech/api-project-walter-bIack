@@ -13,9 +13,11 @@ const getData = async (apiURL) => {
   } catch (err) {
     console.error(err);
   }
-}
+};
 
-DOMSelectors.dogwater.addEventListener("click", () => createDisplay("dogwater"));
+DOMSelectors.dogwater.addEventListener("click", () =>
+  createDisplay("dogwater")
+);
 DOMSelectors.mid.addEventListener("click", () => createDisplay("mid"));
 DOMSelectors.good.addEventListener("click", () => createDisplay("good"));
 
@@ -28,16 +30,15 @@ DOMSelectors.theme.addEventListener("click", () => {
     document.body.classList.remove("warm");
   }
 });
-
 function createDisplay(universityRating) {
-  DOMSelectors.Display.innerHTML = ""; 
+  DOMSelectors.Display.innerHTML = "";
 
   list
-    .filter((university) => university.color.includes(universityRating))
+    .filter((university) => university.grade.includes(universityRating))
     .forEach((university) => {
       DOMSelectors.Display.insertAdjacentHTML(
         "beforeend",
-         `<figure class="card">
+        `<figure class="card">
             <h2>${university.name}</h2>
             <img class="image" src="${university.image}" alt="">
           </figure>`

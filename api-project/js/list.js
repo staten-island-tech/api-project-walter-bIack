@@ -1,49 +1,50 @@
 const list = [
   {
     name: "Harvard University",
-    color: "dogwater",
+    grade: "dogwater",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Harvard_shield_wreath.svg/1200px-Harvard_shield_wreath.svg.png",
+      "https://1000logos.net/wp-content/uploads/2017/02/Harvard-Logo-Meaning-history.jpg",
   },
   {
     name: "Cornell University",
-    color: "dogwater",
+    grade: "dogwater",
     image:
-      "https://www.cornellstore.com/site/Product_images/11016091_media-01.jpg?resizeid=3&resizeh=300&resizew=300",
+      "https://cdn.freebiesupply.com/logos/large/2x/cornell-big-red-logo-png-transparent.png",
   },
   {
     name: "Brown University",
-    color: "mid",
+    grade: "mid",
     image:
       "https://content.sportslogos.net/news/2022/07/Brown-Bears-750x422.png",
   },
   {
     name: " University of Pennsylvania",
-    color: "mid",
+    grade: "mid",
     image:
       "https://branding.web-resources.upenn.edu/sites/default/files/styles/card_3x2/public/2022-03/UniversityofPennsylvania_FullLogo_RGB-4_0.png?h=ab080a2f&itok=tu_jMFEm",
   },
   {
     name: "Columbia University",
-    color: "good",
-    image: "https://uwm.edu/r2d2/wp-content/uploads/sites/438/2022/03/columbia-university-logo-noback.png",
+    grade: "good",
+    image:
+      "https://uwm.edu/r2d2/wp-content/uploads/sites/438/2022/03/columbia-university-logo-noback.png",
   },
   {
     name: "Yale University",
-    color: "good",
+    grade: "good",
     image: "https://m.media-amazon.com/images/I/61RY-QtmmML.jpg",
   },
   {
     name: "Dartmouth College",
-    color: "good",
+    grade: "good",
     image:
       "https://i.pinimg.com/originals/51/01/82/510182ea8738eae5e60d1c5c59fba625.jpg",
   },
   {
     name: "Princeton",
-    color: "dogwater",
+    grade: "dogwater",
     image:
-      "https://1000logos.net/wp-content/uploads/2022/07/University-of-Princeton-Logo-1896.png",
+      "https://th.bing.com/th/id/OIP.VNSDW2t8yTuUePC9VcfOcQHaJ6?pid=ImgDet&rs=1",
   },
 ];
 
