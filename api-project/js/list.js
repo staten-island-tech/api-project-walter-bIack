@@ -3,13 +3,13 @@ const list = [
     name: "Harvard University",
     grade: "dogwater",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Harvard_shield_wreath.svg/1200px-Harvard_shield_wreath.svg.png",
+      "https://1000logos.net/wp-content/uploads/2017/02/Harvard-Logo-Meaning-history.jpg",
   },
   {
     name: "Cornell University",
     grade: "dogwater",
     image:
-      "https://www.cornellstore.com/site/Product_images/11016091_media-01.jpg?resizeid=3&resizeh=300&resizew=300",
+      "https://cdn.freebiesupply.com/logos/large/2x/cornell-big-red-logo-png-transparent.png",
   },
   {
     name: "Brown University",
@@ -27,6 +27,7 @@ const list = [
     name: "Columbia University",
     grade: "good",
     image: "https://uwm.edu/r2d2/wp-content/uploads/sites/438/2022/03/columbia-university-logo-noback.png",
+
   },
   {
     name: "Yale University",
@@ -43,7 +44,7 @@ const list = [
     name: "Princeton",
     grade: "dogwater",
     image:
-      "https://1000logos.net/wp-content/uploads/2022/07/University-of-Princeton-Logo-1896.png",
+      "https://th.bing.com/th/id/OIP.VNSDW2t8yTuUePC9VcfOcQHaJ6?pid=ImgDet&rs=1",
   },
 ];
 
