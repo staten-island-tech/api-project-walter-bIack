@@ -26,8 +26,7 @@ const list = [
   {
     name: "Columbia University",
     grade: "good",
-    image:
-      "https://uwm.edu/r2d2/wp-content/uploads/sites/438/2022/03/columbia-university-logo-noback.png",
+
   },
   {
     name: "Yale University",
