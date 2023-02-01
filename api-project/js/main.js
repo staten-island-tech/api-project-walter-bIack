@@ -12,15 +12,21 @@ document.body.onload = () => {createDisplay("dogwater")}
 const form = document.getElementById("form1");
 form.addEventListener("submit", async function(event) {
   event.preventDefault();
-  document.querySelectorAll(".card1").forEach(async (card) => {
+  let temp = await getquote(document.getElementById("input1").value)
+  if (temp === true) {
+      alert(`${document.getElementById("input1").value} is not a valid term`)
+
+  } else {
+    document.querySelectorAll(".card1").forEach(async (card) => {
     let data = await getquote(document.getElementById("input1").value)
+    
     console.log(data)
     card.innerHTML = ""
     card.insertAdjacentHTML(
     "beforeend",
     `<figcaption class="quote">${data.content}</figcaption>`
   );})
-  
+    }
 });
 
 const getquote = async (input) => {
@@ -28,6 +34,10 @@ const getquote = async (input) => {
     let response = await fetch(
       `https://api.quotable.io/random?tags=${input}`
     );
+    console.log(response.ok)
+    if (!response.ok) {
+      return true
+    }
     let data = await response.json();
     return data;
   } catch (error) {
