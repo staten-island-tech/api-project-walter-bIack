@@ -43,16 +43,15 @@ DOMSelectors.theme.addEventListener("click", () => {
     document.body.classList.remove("warm");
   }
 });
-
 function createDisplay(universityRating) {
-  DOMSelectors.Display.innerHTML = ""; 
+  DOMSelectors.Display.innerHTML = "";
 
   list
     .filter((university) => university.grade.includes(universityRating))
     .forEach((university) => {
       DOMSelectors.Display.insertAdjacentHTML(
         "beforeend",
-         `<figure class="card">
+        `<figure class="card">
             <h2>${university.name}</h2>
             <img class="image" src="${university.image}" alt="">
             <div class="card1"></div>
